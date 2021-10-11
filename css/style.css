@@ -1,0 +1,133 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+body{
+    font-family: "Montserrat", arial;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* HEADER */
+
+/* header-top */
+.logo-header{
+    height: 70px;
+    display: inline-block;
+    border-right: 1px solid #ededed;
+}
+
+.logo-header img{
+    height: 100%;
+    padding-right: 20px;
+
+}
+
+
+/* nav */
+nav{
+    margin: 30px 0;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #acacac;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+/* header-bottom */
+header .header-bottom{
+    position: relative;
+    background-color: #e1d67a;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header-bottom img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-bottom .header-text{
+    color: white;
+    position: absolute;
+    bottom:60px;
+    left: 50px;
+    width: 55%;
+}
+
+.header-text h2{
+    font-size: 33px;
+    line-height: 40px;
+}
+
+/* MAIN */
+main{
+    background-color: #0088fb;
+    margin:20px 0;
+}
+
+.main-top, .col{
+    background-color: #abd0e7;
+    height: 100px;
+}
+
+.col-box > .col{
+    float: left;
+}
+
+main .col-box{
+   padding: 20px 0;
+}
+
+.col-left, .col-right{
+    width: 23%;
+    height: 500px;
+
+}
+
+.col-center{
+    width: 50%;
+    height: 500px;
+    margin: 0 2%;
+}
+
+/* FOOTER */
+footer{
+    height: 70px;
+    background-color: #8801fe;
+}
